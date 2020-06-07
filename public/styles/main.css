@@ -1,0 +1,112 @@
+:root {
+    --title-color: #3a275e;
+    --primary-color: #34cb79;
+    --background: #f0f0f5;
+    --form: white;
+    --text: black;
+    --li-back: #e1faec;
+    --li-border: #34cb79;
+    --bodysearch: #d4d4db;
+}
+
+.dark {
+    --title-color: #845bcc;
+    --primary-color: #2fe079;
+    --background: #37373b;
+    --form: #5d5d6471;
+    --text: white;
+    --li-back: #d7caec;
+    --li-border: #885cd4;
+    --bodysearch: #2f2f31b9; 
+}
+
+#night-mode {
+    float: left;
+    display: flex;
+    margin-left: 18px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    transition: 700ms;
+    background: var(--background);
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+
+/* Switch botão do tema dark */
+
+
+.switch__container {
+    margin: 10px left;
+    width: 120px;
+  }
+  
+  .switch {
+    visibility: hidden;
+    position: absolute;
+    margin-left: -9999px;
+  }
+  
+  .switch + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+  }
+  
+  .switch--shadow + label {
+    padding: 2px;
+    width: 90px;
+    height: 30px;
+    background-color: #dddddd;
+    border-radius: 60px;
+  }
+  .switch--shadow + label:before,
+  .switch--shadow + label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+  }
+  .switch--shadow + label:before {
+    right: 1px;
+    background-color: #f1f1f1;
+    border-radius: 60px;
+    transition: background 0.4s;
+  }
+  .switch--shadow + label:after {
+    width: 35px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+  }
+  .switch--shadow:checked + label:before {
+    background-color: #8ce196;
+  }
+  .switch--shadow:checked + label:after {
+    transform: translateX(60px);
+  }
