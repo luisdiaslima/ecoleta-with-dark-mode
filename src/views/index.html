@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoleta</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/144/000000/recycle-sign.png"/>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+
+</head>
+
+<body>
+    <div id="page-home">
+        <div class="content">
+        <header>
+            <img src="/assets/icones/logo.svg" alt="Logomarca" class="logo">    
+            <a href="/create-point">
+                <span></span>
+                Cadastre um ponto de coleta
+            </a>
+        </header>
+        {# <input id="night-mode" class="lamp" type="checkbox" aria-label="night-mode" /> #}
+        {# <div class="switch__container">
+            <input id="night-mode" class="switch switch--shadow" type="checkbox">
+            <label for="night-mode"></label>
+            </div> #}
+
+
+        <main>
+            <h1>Seu marketplace de coleta de respiduos</h1>
+            <p>Ajudamos pessoas a encontrarem pontos de coleta de fome eficiente. </p>
+
+            <div class="switch__container">
+            <input id="night-mode" class="switch switch--shadow" type="checkbox">
+            <label for="night-mode"></label>
+            <img src="/assets/icones/lua.png" alt="Lua" id="lua" srcset="" width="45px">
+            </div>
+            
+            <a href="#">
+                <span>
+                </span>
+                <strong>
+                    Pesquisar pontos de coleta
+                </strong>
+            </a>
+        </main>
+        </div>
+    </div>
+    
+    {% include "includes/modal.html" %}
+
+    <script src="/scripts/dark.js"></script>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>
