@@ -1,6 +1,6 @@
 #   Início
 
-Ecoleta é um projeto promovido pela 'Rocketseat' através de um programa online.
+Ecoleta é um projeto promovido pela 'Rocketseat' através de um programa online e feito por mim!
 
 ## Baixando arquivos necessários
 
