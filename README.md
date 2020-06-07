@@ -25,7 +25,7 @@ Tudo pronto, poderá te-lo em vista no seu browser através do link: http://loca
 - NodeJs
 - Express
 - SQLITE3
--NUNJUCKS
+- NUNJUCKS
 
 ## Relevâncias
 Promovido a experiência ao consumir uma API, usar a tecnologia express disponibilizada pelo Node.js e implementação de um modo noturno.
