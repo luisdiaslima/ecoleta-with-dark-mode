@@ -20,4 +20,4 @@ npm run start
 Promovido a experiência ao consumir uma API, usar a tecnologia express disponibilizada pelo Node.js e implementação de um modo noturno.
 
 ## Preview
-![](ecoleta.png)
+![](/ecoleta.PNG)
