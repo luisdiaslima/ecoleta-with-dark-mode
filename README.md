@@ -1,4 +1,4 @@
-#   Início
+#   Introdução
 
 Ecoleta é um projeto promovido pela 'Rocketseat' através de um programa online e feito por mim!
 
